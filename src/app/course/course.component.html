@@ -1,0 +1,22 @@
+<section class="course">
+    <div class="container">
+        <h1 class="text-center">All Course</h1>
+    
+        <div class="row mt-5" >
+            <div class="col-lg-3 mb-5" *ngFor="let cs of course">
+                <div class="box shadow-sm">
+                    <div id="demobox">
+                        <h1 class="name-sub">{{cs.name}}</h1>
+                    </div>
+                    <!--<img src="{{cs.image}}" width="100%">-->
+                    <h4 class="mt-2">{{cs.name}}</h4>
+                    <p clas="mt-2">{{cs.description}}</p>
+                    <a href="{{cs.link}}"><button class="btn btn-primary btn-sm mt-2 href-button">IMP Question(Text)</button></a>
+                    <a href="{{cs.link2}}"><button class="btn btn-primary btn-sm mt-2">Tutorial(Video)</button></a>
+                </div>
+    
+            </div>
+        </div>
+    
+    </div>
+    </section>

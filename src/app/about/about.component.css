@@ -1,0 +1,31 @@
+.follow a
+{
+    padding: 10px;
+    color: #000000;
+    font-weight: bold;
+}
+@media screen and (max-width:600px)
+{
+    .follow a
+    {
+        padding: 5px;
+    }
+}
+.user-img{
+    height:17rem;
+    width:17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border:.7rem solid var(--yellow);
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    text-align: center;
+}
+.about-me{
+    color: red;
+}

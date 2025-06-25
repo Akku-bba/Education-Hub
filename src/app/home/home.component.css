@@ -1,0 +1,45 @@
+.home img
+{
+    width: 100%;
+    height: 600px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.homecontent
+{
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%,-50%);
+}
+.homecontent h1
+{
+    color: red;
+    font-size: 50px;
+}
+.homecontent a
+{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:600px)
+{
+    .home img
+{
+    height: 700px;
+}
+    .homecontent h1
+{
+    font-size: 40px;        
+}
+}
+#demobox {
+    background-color: #cfc ;
+  }
+#demobox {
+    background-color: #a8dadc ;
+    padding: 250px ;
+    border: 4px solid rgb(0, 113, 128) ;
+    text-align: center;
+  }
